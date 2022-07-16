@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "NetworkedBME280",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -9,7 +9,22 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "description": "Plugin name as displayed in the Homebridge log",
+        "default": "BME280 Platform"
+      },
+      "endpoint": {
+        "title": "Endpoint", 
+        "type": "number", 
+        "required": true,
+        "description": "The RESTful endpoint to request",
+        "default": ""
+      },
+      "port": {
+        "title": "Port", 
+        "type": "string", 
+        "required": true,
+        "description": "The RESTful endpoint port (80 for http and 443 for https)",
+        "default": "3000"
       }
     }
   }
