@@ -1,9 +1,8 @@
 {
-  "private": true,
-  "displayName": "Networked BME280",
-  "name": "homebridge-network-bme280",
+  "displayName": "Homebrige Networked BME280",
+  "name": "homebridge-networked-bme280",
   "version": "1.0.0",
-  "description": "A homebridge plugin to pull BME280 from a http endpoint ",
+  "description": "A homebridge plugin to pull BME280 from a http endpoint",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",

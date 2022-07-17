@@ -6,4 +6,4 @@ export const PLATFORM_NAME = 'NetworkedBME280';
 /**
  * This must match the name of your plugin as defined the package.json
  */
-export const PLUGIN_NAME = 'homebridge-network-bme280';
+export const PLUGIN_NAME = 'homebridge-networked-bme280';
