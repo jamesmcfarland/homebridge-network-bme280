@@ -14,14 +14,14 @@
       },
       "endpoint": {
         "title": "Endpoint", 
-        "type": "number", 
+        "type": "string", 
         "required": true,
         "description": "The RESTful endpoint to request",
         "default": ""
       },
       "port": {
         "title": "Port", 
-        "type": "string", 
+        "type": "number", 
         "required": true,
         "description": "The RESTful endpoint port (80 for http and 443 for https)",
         "default": "3000"
