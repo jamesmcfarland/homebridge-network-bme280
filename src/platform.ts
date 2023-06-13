@@ -58,7 +58,7 @@ export class NetBMEHomebridgePlatform implements DynamicPlatformPlugin {
     const device =
     {
       uuid: '13e73544-b94e-4a6c-bc29-dad46527d5ec',
-      displayName: 'Web Endpoint Sensor',
+      displayName: 'BME280 Endpoint Sensor',
     };
 
 
